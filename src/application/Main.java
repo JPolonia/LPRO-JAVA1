@@ -63,7 +63,7 @@ public class Main {
 					break;
 				default: break;
 			}
-			//isRunning = (hero.isFree || hero.isDead) ? false:true;
+			isRunning = (hero.isFree || hero.isDead) ? false:true;
 		}
 	}
 	

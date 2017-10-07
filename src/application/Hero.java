@@ -40,7 +40,7 @@ public class Hero extends GameObject {
 							break;		
 							
 				case 'E': 	//If he has the key he can exit - GAME COMPLETED!
-							if(hero.hasKey) {screen.PrintGameCompleted();transformHero(screen,hero,'o');}
+							if(hero.hasKey) {hero.isFree = true;screen.PrintGameCompleted();transformHero(screen,hero,'o');}
 							else {screen.PrintExitClose();break;}
 							
 				case 'K':	//Gets the key!
